@@ -28,12 +28,12 @@ if 'chat_history' not in st.session_state:
 
 # Initialize Streamlit app
 st.set_page_config(page_title="Q&A Demo")
-st.image("img\img3.jpg", width=10, use_column_width=True)
-st.header("Let's learn together with Bard!")
+#st.image("img\img3.jpg", width=10, use_column_width=True)
+st.header("Let's learn together with Coco🤩!")
 
 # Input and submit button
-input_text = st.text_input("What do you want to learn about today?", key="input")
-submit_button = st.button("Ask the question")
+input_text = st.text_input("What do you want to explore today?", key="input")
+submit_button = st.button("Ask Coco")
 
 # Process user input and get response
 if submit_button and input_text:
